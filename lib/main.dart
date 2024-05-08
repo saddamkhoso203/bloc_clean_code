@@ -1,4 +1,3 @@
-import 'package:bloc_clean_coding/Views/Splash/splachview.dart';
 import 'package:bloc_clean_coding/config/routes/routes.dart';
 import 'package:bloc_clean_coding/config/routes/routes_name.dart';
 import 'package:flutter/material.dart';
