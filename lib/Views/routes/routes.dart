@@ -1,7 +1,7 @@
-import 'package:bloc_clean_coding/config/routes/routes_name.dart';
+import 'package:bloc_clean_coding/Views/routes/routes_name.dart';
 import 'package:flutter/material.dart';
 
-import '../../Views/view.dart';
+import '../view.dart';
 
 class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
