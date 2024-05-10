@@ -2,10 +2,12 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:bloc_clean_coding/config/data/exception/app_exceptiom.dart';
-import 'package:bloc_clean_coding/config/data/network/base_api_services.dart';
+
+import 'package:bloc_clean_coding/data/network/base_api_services.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
+import '../exception/app_exceptiom.dart';
 
 class NetworkApiServices extends BaseApiServices {
   @override

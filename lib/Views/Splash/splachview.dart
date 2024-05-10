@@ -1,9 +1,11 @@
+import 'package:bloc_clean_coding/Services/splash/splashservices.dart';
 import 'package:bloc_clean_coding/Views/routes/routes_name.dart';
-import 'package:bloc_clean_coding/config/data/exception/app_exceptiom.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../config/componants/internet_exception_widget.dart';
 import '../../config/componants/rouded_button.dart';
+import '../../data/exception/app_exceptiom.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -13,25 +15,21 @@ class SplashView extends StatefulWidget {
 }
 
 class _SplashViewState extends State<SplashView> {
+  SplashServices _splashServices = SplashServices();
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _splashServices.isLogin(context);
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        throw NoInternetException();
-      }),
-      body: SafeArea(
-        child: Center(
-            child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: InternetExpections(
-                onPress: () {},
-              ),
-            )
-          ],
-        )),
-      ),
-    );
+    return const Scaffold(
+        body: Center(
+            child: Text(
+      'Splash Screen',
+      style: TextStyle(fontSize: 50),
+    )));
   }
 }

@@ -1,3 +1,4 @@
+import 'package:bloc_clean_coding/config/color/colors.dart';
 import 'package:flutter/material.dart';
 
 class LoginVIew extends StatefulWidget {
@@ -10,6 +11,11 @@ class LoginVIew extends StatefulWidget {
 class _LoginVIewState extends State<LoginVIew> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('Login'),
+      ),
+    );
   }
 }
