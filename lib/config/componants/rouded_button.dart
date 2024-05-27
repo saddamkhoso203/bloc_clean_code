@@ -1,6 +1,6 @@
 import 'package:bloc_clean_coding/config/color/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
+// import 'package:freezed_annotation/freezed_annotation.dart';
 
 class RoudedButton extends StatelessWidget {
   final String title;
