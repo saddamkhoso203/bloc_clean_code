@@ -1,6 +1,5 @@
-import 'package:bloc_clean_coding/Views/Login/widgets/password_input_widget.dart';
-import 'package:bloc_clean_coding/config/color/colors.dart';
 import 'package:flutter/material.dart';
+
 import 'widgets/widgets.dart';
 
 class LoginVIew extends StatefulWidget {
@@ -35,7 +34,9 @@ class _LoginVIewState extends State<LoginVIew> {
                 const SizedBox(
                   height: 20,
                 ),
-                PasswordInputWidget(passswordFocusNode: passwordFucusNode),
+
+                PasswordInputWidgets(passswordFocusNode: passwordFucusNode),
+                // PasswordInputWidget(passswordFocusNode: passwordFucusNode),
                 const SizedBox(
                   height: 50,
                 ),

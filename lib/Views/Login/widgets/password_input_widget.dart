@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class PasswordInputWidget extends StatelessWidget {
+class PasswordInputWidgets extends StatelessWidget {
   final FocusNode passswordFocusNode;
-  const PasswordInputWidget({super.key, required this.passswordFocusNode});
+  const PasswordInputWidgets({super.key, required this.passswordFocusNode});
 
   @override
   Widget build(BuildContext context) {
