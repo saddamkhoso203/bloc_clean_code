@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:bloc_clean_coding/Services/splash/splashservices.dart';
 import 'package:bloc_clean_coding/Views/routes/routes_name.dart';
 

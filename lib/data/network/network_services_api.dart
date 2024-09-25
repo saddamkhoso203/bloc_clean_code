@@ -1,3 +1,5 @@
+// ignore_for_file: constant_pattern_never_matches_value_type
+
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
